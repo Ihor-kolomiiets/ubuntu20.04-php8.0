@@ -6,6 +6,7 @@ RUN apt update && \
     add-apt-repository ppa:ondrej/php && \
     apt update
 
+#install php
 RUN apt-get install -y php8.0 php8.0-cli
 
 # run version of PHP
